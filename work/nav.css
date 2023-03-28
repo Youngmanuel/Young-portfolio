@@ -1,0 +1,40 @@
+
+
+body{
+    background-color:rgba(19, 122, 153, 0.575);
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(28, 30, 37);
+    overflow: hidden;
+}
+
+
+
+h1{
+    float: left;
+    margin-left:20px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    float: right;
+    margin-right: 30px;
+    
+}
+li {
+    list-style-type:none;
+    display: inline;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:20px;
+    color: whitesmoke;
+
+}
+li:hover{
+    transform: translate(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.414);
+    background-color: black;
+}
